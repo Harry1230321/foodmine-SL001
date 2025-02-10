@@ -9,4 +9,4 @@ Harry.
 
 1. I made a header according to the youtube
 2. use command -ng g c components/partials/header
-3.add global css in style.css
+3. add global css in style.css
