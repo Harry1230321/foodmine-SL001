@@ -18,3 +18,7 @@ Harry.
 3. Added Images to assests 
 ## IN Angular 18 or later . assests are supposed to be in public . img can be called by their name directly
 4. Installed ngx bootstrap to show star rating.
+
+## Day (3) 2/18/2025
+
+1. Created Search bar fucntion for the home page.
