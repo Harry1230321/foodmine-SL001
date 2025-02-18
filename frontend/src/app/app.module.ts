@@ -10,6 +10,7 @@ import { RatingModule } from 'ngx-bootstrap/rating';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { SearchComponent } from './components/partials/search/search.component';
 import { TagsComponent } from './components/partials/tags/tags.component';
+import { FoodPageComponent } from './components/pages/food-page/food-page.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { TagsComponent } from './components/partials/tags/tags.component';
     HomeComponent,
     SearchComponent,
     TagsComponent,
+    FoodPageComponent,
   ],
   imports: [
     BrowserModule,

@@ -23,4 +23,5 @@ Harry.
 
 1. Created Search bar fucntion for the home page.
 2. Created Tags function that will show the object thats associated with it.
+3. added a object-page to view the selected object details on click.
 
