@@ -16,9 +16,11 @@ Harry.
 1. Created a data model in shared>models>
 2. Made a sample data.ts
 3. Added Images to assests 
-## IN Angular 18 or later . assests are supposed to be in public . img can be called by their name directly
+## IN Angular 18 or later . assests are supposed to be in public . img can be called by their name directly.e.g.<img [src]="/burger.jpg">
 4. Installed ngx bootstrap to show star rating.
 
 ## Day (3) 2/18/2025
 
 1. Created Search bar fucntion for the home page.
+2. Created Tags function that will show the object thats associated with it.
+

@@ -9,6 +9,7 @@ import { HomeComponent } from './components/pages/home/home.component';
 import { RatingModule } from 'ngx-bootstrap/rating';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { SearchComponent } from './components/partials/search/search.component';
+import { TagsComponent } from './components/partials/tags/tags.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { SearchComponent } from './components/partials/search/search.component';
     HeaderComponent,
     HomeComponent,
     SearchComponent,
+    TagsComponent,
   ],
   imports: [
     BrowserModule,
