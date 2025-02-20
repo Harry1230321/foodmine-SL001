@@ -11,6 +11,8 @@ import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { SearchComponent } from './components/partials/search/search.component';
 import { TagsComponent } from './components/partials/tags/tags.component';
 import { FoodPageComponent } from './components/pages/food-page/food-page.component';
+import { CartPageComponent } from './components/pages/cart-page/cart-page.component';
+import { TitleComponent } from './components/partials/title/title.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { FoodPageComponent } from './components/pages/food-page/food-page.compon
     SearchComponent,
     TagsComponent,
     FoodPageComponent,
+    CartPageComponent,
+    TitleComponent,
   ],
   imports: [
     BrowserModule,

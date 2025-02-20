@@ -25,3 +25,7 @@ Harry.
 2. Created Tags function that will show the object thats associated with it.
 3. added a object-page to view the selected object details on click.
 
+
+# Day 4 2/20/2025
+
+1.Added add to cart page where objects can be added select the number of objects. the total price and quantity will update accordingly. 
