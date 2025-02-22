@@ -29,3 +29,9 @@ Harry.
 # Day 4 2/20/2025
 
 1.Added add to cart page where objects can be added select the number of objects. the total price and quantity will update accordingly. 
+
+## Day 5 2/22/2025
+
+1.added not found page on cart page, food selecting page, and search bar.
+
+
