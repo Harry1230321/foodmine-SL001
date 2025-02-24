@@ -37,3 +37,8 @@ Harry.
 ## Day 6 2/23/2025
 
 1. Created backend folder to connect to mongodb in the future.
+
+## Day 7 2/24/2025
+
+1. added login page with login and logout function.
+2. 
