@@ -41,4 +41,9 @@ Harry.
 ## Day 7 2/24/2025
 
 1. added login page with login and logout function.
-2. 
+
+## Day 8 2/25/2025
+
+1. Made seperate default components for login page which are email, password and the login button.
+
+2. the default component can now be useed any where inside the project.
