@@ -55,3 +55,6 @@ Harry.
 3. used seeding method to populate the database.
 4. set up async functions to work with the database.
 5. project is successfully connected to the backend.
+6. added register page which works with the rest of the code.
+    1. added register api to the backend
+    2. fixed the token problem from the youtube tuto.

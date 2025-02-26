@@ -12,25 +12,26 @@ import { User } from '../../../shared/models/user';
 export class HeaderComponent implements OnInit {
   
   cartQuantity = 0;
-  user!:User;
-  constructor(cartService:CartService,private userService:UserService) { 
-    cartService.getCartObservable().subscribe((newCart)=>{
+  user!: User;
+  
+  constructor(cartService: CartService, private userService: UserService) { 
+    cartService.getCartObservable().subscribe((newCart) => {
       this.cartQuantity = newCart.totalCount;
-    })
+    });
 
-    userService.userObservable.subscribe((newUser)=>{
+    userService.userObservable.subscribe((newUser) => {
       this.user = newUser;
-    })
+    });
   }
 
   ngOnInit() {
   } 
 
-  logout(){
+  logout() {
     this.userService.logout();
   }
 
-  get isAuth(){
-    return this.user.token;
+  get isAuth() {
+    return Boolean(this.user && this.user.token && this.user.token.length > 0);
   }
 }
