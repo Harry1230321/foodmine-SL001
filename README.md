@@ -47,3 +47,11 @@ Harry.
 1. Made seperate default components for login page which are email, password and the login button.
 
 2. the default component can now be useed any where inside the project.
+
+
+## Day 9 2/26/2025
+1. added database.config.ts to connect to mongodb atlas
+2. succeslly connected to the database
+3. used seeding method to populate the database.
+4. set up async functions to work with the database.
+5. project is successfully connected to the backend.
